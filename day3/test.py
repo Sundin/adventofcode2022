@@ -1,7 +1,7 @@
 import unittest
 import day3
 
-class TestStringMethods(unittest.TestCase):
+class Tests(unittest.TestCase):
 
     def test_prio(self):
         self.assertEqual(day3.get_priority("a"), 1)
